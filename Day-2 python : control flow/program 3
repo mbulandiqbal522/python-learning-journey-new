@@ -1,0 +1,14 @@
+user_name = "mbulandiqbal"
+password = "mbi522"
+n = input("Enter your Name : ")
+p = input("Enter Password : ")
+if n== user_name and p== password:
+  print("Login Successfull")
+elif n==user_name and p!= password:
+  print("Wrong Password")
+  
+elif n!=user_name and p==password:
+  print("Wrong username")
+      
+else:
+    print("Both username and password is wrong")
