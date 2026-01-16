@@ -1,0 +1,5 @@
+x = 5+6-9*7/95*-6+7
+print("ANS = ",x)
+# the output will be :
+# ANS =  21.978947368421053
+# This is because Python Obeys Maths rules as BODMAS rule
