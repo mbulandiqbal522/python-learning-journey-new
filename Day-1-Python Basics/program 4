@@ -1,0 +1,7 @@
+user_data = input("enter the number")
+int_data=int(user_data)
+string_data =str(user_data)
+float_data=float(user_data)
+print(int_data)
+print(string_data)
+print(float_data)
