@@ -10,3 +10,10 @@ elif choice == 2:
     print(a - b)
 else:
     print("Invalid choice")
+
+# commit :
+# Added age eligibility program using if-else
+# Created login validation program with logical operators
+# Implemented nested if example for grading system
+# Added even and odd decision-making program
+# Created simple calculator using if-elif
