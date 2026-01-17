@@ -1,0 +1,38 @@
+#for loop
+
+for i in range(11):
+  print(i)
+
+  
+data=['Muhammad_Buland_Iqbal','Zainab','Naheed_Fatima']
+for i in (data):
+  print(i)
+
+stamina = 10
+while stamina >0:
+  stamina-=1
+  print("Run...",stamina)
+
+  output :
+Run... 9
+Run... 8
+Run... 7
+Run... 6
+Run... 5
+Run... 4
+Run... 3
+Run... 2
+Run... 1
+Run... 0
+
+i=1
+while i<=5:
+  print(i)
+  i+=1
+
+  output:
+  1
+2
+3
+4
+5
