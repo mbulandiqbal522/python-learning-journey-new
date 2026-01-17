@@ -1,0 +1,36 @@
+# Accumulating (Sum of numbers)
+
+total = 0
+
+for i in range(1, 6):
+    total += i
+
+print(total)
+
+# 🧠 WHAT IS THIS PROGRAM DOING?
+# 👉 It adds numbers one by one
+# 👉 It calculates: 1 + 2 + 3 + 4 + 5 = 15
+# ONE-LINE RULE
+# total += i means → add current number to previous total
+
+total = 0
+i = 1
+
+while i <= 5:
+    total += i
+    i += 1
+
+print(total)
+
+total=0
+i=1
+while i<=10:
+  total += i
+  i += 1
+  
+print(total)
+
+count=0
+for i in range(1,51):
+  count+=1
+print(count)
