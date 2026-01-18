@@ -19,5 +19,15 @@
 - Tuple vs List comparison
 
 ---
+🏆 Day-4 Checklist (Completed)
+
+✔ Lists
+✔ Indexing & slicing
+✔ List methods
+✔ List comprehension
+✔ Tuples
+✔ Packing & unpacking
+✔ Organized folders
+✔ Clean commits
 
 ## 📂 Project Structure
