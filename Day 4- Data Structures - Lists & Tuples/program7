@@ -1,0 +1,25 @@
+days = ("Mon", "Tue", "Wed")
+
+Days don’t change → tuple is best ✔
+
+Why tuples exist?
+
+Tuples are used when:
+
+Data should not change
+
+You want safety
+
+Faster than lists
+
+ Immutability (MOST IMPORTANT)
+ 
+data = (10, 20, 30)
+data[1] = 50 
+This will give ERROR 
+
+Why?
+
+Because:
+
+Tuple values cannot be modified after creation
