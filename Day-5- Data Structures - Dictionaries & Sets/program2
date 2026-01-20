@@ -1,0 +1,6 @@
+#Datatype
+student = {
+        "name" : "Muhammad Buland Iqbal",
+        "subjects" : ["Data Analytics","Calculus-1","Linear Algebra"],
+    }
+print(type(student))
