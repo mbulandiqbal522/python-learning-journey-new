@@ -1,0 +1,12 @@
+student = {
+    "name": "Muhammad Buland Iqbal",
+    "age": 19,
+    "grade": "A",
+    "subjects": ["Data Analytics","Calculus-1","Linear Algebra"],
+    "is_adult": False
+}
+student["age"]= 18
+student["grade"]="A+"
+print(student["name"])
+print(student)
+print(student["subjects"])
