@@ -1,0 +1,15 @@
+student = {
+    "name" :  "Muhammad Buland Iqbal",
+    "subjects" : {
+        "D.A" : "A",
+        "Calculus-1" : "A",
+        "Linear Algebra" : "A"
+    }
+}
+
+print(student)
+print(student["subjects"])
+print(student.keys())    # All keys
+print(student.values())  # All values
+print(student.items())   # Key + value pairs
+print(student["subjects"]["D.A"])
