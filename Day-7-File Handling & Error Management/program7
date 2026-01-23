@@ -1,0 +1,12 @@
+try:
+    num = int(input("Enter Any Number : "))
+    print(10/num)
+except:
+    print("An error occured")
+
+#using float
+try:
+    num = float(input("Enter Any Number : "))
+    print(10/num)
+except:
+    print("An error occured")
