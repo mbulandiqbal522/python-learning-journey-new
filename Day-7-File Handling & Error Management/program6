@@ -1,0 +1,10 @@
+with open(r"C:\Users\AL-RASHEED\Iris data.csv", "w", newline="") as file:
+    writer = csv.writer(file)
+    writer.writerow(["Name", "Age", "Grade"])
+    writer.writerow(["Ali", 20, "A"])
+
+import csv
+with open(r"C:\Users\AL-RASHEED\Iris data.csv", "r") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)
