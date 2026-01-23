@@ -1,0 +1,17 @@
+#final excemption handling
+try:
+    file = open("data.txt")
+    print(file.read())
+except FileNotFoundError:
+    print("File not found")
+finally:
+    print("Program finished")
+
+
+# Common Python Exceptions
+- ValueError
+- TypeError
+- ZeroDivisionError
+- FileNotFoundError
+- IndexError
+- KeyError
